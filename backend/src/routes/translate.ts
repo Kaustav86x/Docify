@@ -47,7 +47,7 @@ router.post('/', async (req: Request, res: Response) => {
       owner,
       repo,
       branchName,
-      `🌍 Add multilingual documentation (${languages.join(', ')})`,
+      `Add multilingual documentation (${languages.join(', ')})`,
       `This PR adds documentation in ${languages.join(', ')} using Docify AI localization.`,
       files
     );
